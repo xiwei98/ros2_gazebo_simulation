@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>ros2_gazebo_simulation</name>
+  <version>2.1.1</version>
+  <description>Simulation package for ROS2 gazebo.</description>
+
+  <maintainer email="xiwei1@midea.com">Wei Xi</maintainer>
+  <author email="xiwei1@midea.com">Wei Xi</author>
+
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>controller_manager</depend>
+  <depend>gazebo_ros_pkgs</depend>
+  <depend>robot_localization</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>gazebo_ros</depend>
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>image_transport</depend>
+  <depend>camera_info_manager</depend>
+  <depend>geometry_msgs</depend>
+  <depend>diff_drive_controller</depend>
+  <depend>joint_state_controller</depend>
+  <depend>joint_state_publisher</depend>
+  <depend>position_controllers</depend>
+  <depend>rviz2</depend>
+  <depend>urdf</depend>
+  <depend>xacro</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>
